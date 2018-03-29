@@ -8,8 +8,6 @@ public class Television{
 			int []channel_num  ;
 			int numberOfChannels;
 			
-			// Scanner scan = new Scanner(System.in);
-			
 		  void Enter_Channel()	{
 			for(int i=1; i<= numberOfChannels ; i++){
 				System.out.print("Channel Number : ");
@@ -21,8 +19,7 @@ public class Television{
 			}//loop
 			
 		}//  method
-
-			// same class data members are not required to be set as arguments of member function 
+			 
 			 void Display_Channel(){	
 				
 				System.out.println("-----------------The channels available are ----------------");
